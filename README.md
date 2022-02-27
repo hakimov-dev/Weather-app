@@ -1,8 +1,24 @@
-# Weather-app
-<h2>Weather-app with <strong style="color:aqua">JavaScript</strong> and <strong style="color:aqua">API</strong>.</h2>
+# weather-app
 
-![photo_2021-12-08_16-02-32](https://user-images.githubusercontent.com/83240328/145197721-14e9c79b-5a8a-4855-8438-7786754b8e89.jpg)
+## Project setup
+```
+npm install
+```
 
-<h2><a href="https://hakimov-dev.github.io/Weather-app/" target="_blank">View website on demo</a></h2>
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-<p>Created by <a href="https://github.com/hakimov-dev/">&copy;Hakimov-dev</a></p>
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
