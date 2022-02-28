@@ -51,6 +51,7 @@ export default {
         .then(response => {
           console.log(response.data)
           const { data } = response
+          this.city = data.name
         }).catch(e => {
           console.log(e)
         })
