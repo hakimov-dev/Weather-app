@@ -39,7 +39,7 @@ export default {
 
 body {
   font-family: "montserrat", sans-serif;
-  background-image: url(@/assets/bg.jpg);
+  background-image: url(./assets/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
