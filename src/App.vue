@@ -41,7 +41,12 @@ export default {
   },
   methods: {
     searchCity () {
-
+      axios.get(`url`)
+        .then(response => {
+          console.log(response.data)
+        }).catch(e => {
+          console.log(e)
+        })
     }
   },
   created () {
