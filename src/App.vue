@@ -39,7 +39,9 @@ export default {
     }
   },
   methods: {
+    searchCity () {
 
+    }
   },
   created () {
 
