@@ -36,7 +36,13 @@ export default {
         key: '4960890c24a17f0caac1583e7334bfc3',
         baseurl: 'https://api.openweathermap.org/data/2.5/'
       },
-      searchValue: ''
+      searchValue: '',
+      city: '',
+      country: '',
+      date: '',
+      temp: '',
+      weather: '',
+      hi__low: ''
     }
   },
   methods: {
