@@ -27,7 +27,7 @@
 <script>
 export default {
   name: 'App',
-  data() {
+  data () {
     return {
       baseAPI: {
         key: '4960890c24a17f0caac1583e7334bfc3',
@@ -36,7 +36,7 @@ export default {
     }
   },
   created () {
-    
+
   }
 }
 </script>
