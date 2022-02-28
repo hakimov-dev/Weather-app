@@ -54,6 +54,7 @@ export default {
           this.city = data.name
           this.country = data.sys.country
           const date = new Date()
+          this.date = `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`
         }).catch(e => {
           console.log(e)
         })
