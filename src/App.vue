@@ -32,7 +32,8 @@ export default {
       baseAPI: {
         key: '4960890c24a17f0caac1583e7334bfc3',
         baseurl: 'https://api.openweathermap.org/data/2.5/'
-      }
+      },
+      searchValue: ''
     }
   },
   created () {
