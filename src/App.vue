@@ -57,6 +57,7 @@ export default {
           this.date = `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`
           this.temp = Math.round(data.main.temp)
           this.weather = data.weather[0].main
+          this.hi__low = `${Math.round(data.main.temp_max)}°/${Math.round(data.main.temp_min)}°`
         }).catch(e => {
           console.log(e)
         })
