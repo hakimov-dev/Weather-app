@@ -52,6 +52,7 @@ export default {
           console.log(response.data)
           const { data } = response
           this.city = data.name
+          this.country = data.sys.country
         }).catch(e => {
           console.log(e)
         })
