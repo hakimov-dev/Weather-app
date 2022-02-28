@@ -18,6 +18,7 @@
           autocomplete="off"
           class="search__box"
           placeholder="Search..."
+          v-model.trim="searchValue"
         />
       </div>
     </header>
