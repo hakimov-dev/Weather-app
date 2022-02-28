@@ -38,6 +38,9 @@ export default {
       searchValue: ''
     }
   },
+  methods: {
+
+  },
   created () {
 
   }
