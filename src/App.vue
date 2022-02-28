@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     searchCity () {
-      axios.get(`url`)
+      axios.get(`${this.baseAPI.baseurl}weather?q=${this.searchValue}&units=metric&APPID=${this.baseAPI.key}`)
         .then(response => {
           console.log(response.data)
         }).catch(e => {
