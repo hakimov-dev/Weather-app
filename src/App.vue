@@ -50,6 +50,7 @@ export default {
       axios.get(`${this.baseAPI.baseurl}weather?q=${this.searchValue}&units=metric&APPID=${this.baseAPI.key}`)
         .then(response => {
           console.log(response.data)
+          const { data } = response
         }).catch(e => {
           console.log(e)
         })
