@@ -19,6 +19,7 @@
           class="search__box"
           placeholder="Search..."
           v-model.trim="searchValue"
+          @keypress.enter=""
         />
       </div>
     </header>
