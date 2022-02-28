@@ -128,35 +128,6 @@ main {
   text-shadow: 0px 4px rgba(0, 0, 0, 6);
 }
 
-.input__content {
-  font-size: 18px;
-  line-height: 25px;
-  margin-top: 10px;
-  color: #fff;
-  width: 100%;
-  max-width: 260px;
-  text-align: center;
-}
-
-.input__content strong {
-  color: #0ff;
-}
-
-.admin {
-  width: 100%;
-  max-width: 160px;
-  margin: 0 auto;
-  margin-top: 50px;
-  text-align: center;
-  align-items: center;
-  color: #0ff;
-  text-decoration: none;
-  background: #000;
-  padding: 10px;
-  border-radius: 0 16px;
-  border: 2px solid #0ff;
-}
-
 @media (max-width: 900px) {
   .app__wrap {
     grid-template-columns: 100%;
