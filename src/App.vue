@@ -56,6 +56,7 @@ export default {
           const date = new Date()
           this.date = `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`
           this.temp = Math.round(data.main.temp)
+          this.weather = data.weather[0].main
         }).catch(e => {
           console.log(e)
         })
