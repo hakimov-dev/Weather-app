@@ -53,6 +53,7 @@ export default {
           const { data } = response
           this.city = data.name
           this.country = data.sys.country
+          const date = new Date()
         }).catch(e => {
           console.log(e)
         })
