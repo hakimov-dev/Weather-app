@@ -65,6 +65,13 @@ export default {
   },
   async created () {
     const { data } = await this.$store.dispatch('getIpAddress')
+
+    axios.get('url')
+      .then(res => {
+
+      }).catch(e => {
+        console.log(e)
+      })
   }
 }
 </script>
