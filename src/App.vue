@@ -66,7 +66,7 @@ export default {
   async created () {
     const { data } = await this.$store.dispatch('getIpAddress')
 
-    axios.get(`http://ip-api.com/json/${data.ip}`)
+    axios.get(`https://ipapi.co/${data.ip}/json/`)
       .then(res => {
 
       }).catch(e => {
