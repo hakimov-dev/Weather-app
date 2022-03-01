@@ -2,7 +2,7 @@
   <div class="app__wrap">
     <main>
       <section class="location">
-        <div class="city">Tashkent, UZ</div>
+        <div class="city">{{this.city}}, {{this.country}}</div>
         <div class="date">Monday, 22 September 2021</div>
       </section>
       <div class="main__temp">
