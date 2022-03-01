@@ -68,7 +68,19 @@ export default {
 
     axios.get(`https://ipapi.co/${data.ip}/json/`)
       .then(res => {
-
+        axios.get(`${this.baseAPI.baseurl}weather?q=${res.data.country_capital}&units=metric&APPID=${this.baseAPI.key}`)
+          .then(response => {
+            const { data } = response
+            this.city = data.name
+            this.country = data.sys.country
+            const date = new Date()
+            this.date = `${date.getDate()} / ${date.getMonth() + 1} / ${date.getFullYear()}`
+            this.temp = Math.round(data.main.temp)
+            this.weather = data.weather[0].main
+            this.hi__low = `${Math.round(data.main.temp_max)}°c / ${Math.round(data.main.temp_min)}°c`
+          }).catch(e => {
+            console.log(e)
+          })
       }).catch(e => {
         console.log(e)
       })
