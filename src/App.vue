@@ -3,7 +3,7 @@
     <main>
       <section class="location">
         <div class="city">{{this.city}}, {{this.country}}</div>
-        <div class="date">Monday, 22 September 2021</div>
+        <div class="date">{{this.date}}</div>
       </section>
       <div class="main__temp">
         <div class="temp">8<span>°c</span></div>
@@ -54,7 +54,7 @@ export default {
           this.city = data.name
           this.country = data.sys.country
           const date = new Date()
-          this.date = `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`
+          this.date = `${date.getDate()} / ${date.getMonth() + 1} / ${date.getFullYear()}`
           this.temp = Math.round(data.main.temp)
           this.weather = data.weather[0].main
           this.hi__low = `${Math.round(data.main.temp_max)}°/${Math.round(data.main.temp_min)}°`
