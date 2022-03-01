@@ -2,16 +2,17 @@
   <div class="app__wrap">
     <main>
       <section v-if="this.city" class="location">
-        <div class="city">{{this.city}}, {{this.country}}</div>
-        <div class="date">{{this.date}}</div>
+        <div class="city">{{ this.city }}, {{ this.country }}</div>
+        <div class="date">{{ this.date }}</div>
       </section>
       <div v-if="this.city" class="main__temp">
-        <div class="temp">{{this.temp}}<span>°c</span></div>
-        <div class="weather">{{this.weather}}</div>
-        <div class="hi__low">{{this.hi__low}}</div>
+        <div class="temp">{{ this.temp }}<span>°c</span></div>
+        <div class="weather">{{ this.weather }}</div>
+        <div class="hi__low">{{ this.hi__low }}</div>
       </div>
     </main>
-    <header>
+   <main/>
+ <header>
       <div class="content">
         <input
           type="text"
