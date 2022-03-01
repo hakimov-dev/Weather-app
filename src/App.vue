@@ -7,7 +7,7 @@
       </section>
       <div class="main__temp">
         <div class="temp">{{this.temp}}<span>°c</span></div>
-        <div class="weather">Fog</div>
+        <div class="weather">{{this.weather}}</div>
         <div class="hi__low">19°c / 24°c</div>
       </div>
     </main>
