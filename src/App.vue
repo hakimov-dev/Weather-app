@@ -63,8 +63,8 @@ export default {
         })
     }
   },
-  created () {
-
+  async created () {
+    const { data } = await this.$store.dispatch('getIpAddress')
   }
 }
 </script>
