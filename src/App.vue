@@ -162,4 +162,25 @@ export default {
 </script>
 
 <style scoped>
+svg path,
+svg rect{
+  fill: #fff;
+}
+
+.loader{
+  margin: 0 0 2em;
+  height: 100px;
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1em;
+  vertical-align: top;
+  color: #fff;
+}
+
+.loader h2{
+  color: #fff;
+  position: absolute;
+  left: 22%
+}
 </style>
