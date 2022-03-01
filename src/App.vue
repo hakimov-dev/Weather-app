@@ -8,7 +8,7 @@
       <div class="main__temp">
         <div class="temp">{{this.temp}}<span>°c</span></div>
         <div class="weather">{{this.weather}}</div>
-        <div class="hi__low">19°c / 24°c</div>
+        <div class="hi__low">{{this.hi__low}}</div>
       </div>
     </main>
     <header>
@@ -57,7 +57,7 @@ export default {
           this.date = `${date.getDate()} / ${date.getMonth() + 1} / ${date.getFullYear()}`
           this.temp = Math.round(data.main.temp)
           this.weather = data.weather[0].main
-          this.hi__low = `${Math.round(data.main.temp_max)}°/${Math.round(data.main.temp_min)}°`
+          this.hi__low = `${Math.round(data.main.temp_max)}°c / ${Math.round(data.main.temp_min)}°c`
         }).catch(e => {
           console.log(e)
         })
