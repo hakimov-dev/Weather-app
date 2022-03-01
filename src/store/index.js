@@ -9,7 +9,7 @@ export default createStore({
   actions: {
     async getIpAddress () {
       try {
-        const data = await axios.get('')
+        const data = await axios.get('https://api.ipify.org/?format=json')
       } catch (e) {
         console.log(e)
       }
