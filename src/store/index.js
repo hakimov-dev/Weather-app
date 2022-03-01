@@ -9,7 +9,7 @@ export default createStore({
   actions: {
     async getIpAddress () {
       try {
-
+        const data = await axios.get('')
       } catch (e) {
         console.log(e)
       }
