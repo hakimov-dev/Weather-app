@@ -7,7 +7,13 @@ export default createStore({
   mutations: {
   },
   actions: {
-   
+    async getIpAddress () {
+      try {
+
+      } catch (e) {
+        console.log(e)
+      }
+    }
   },
   modules: {
   }
