@@ -82,6 +82,8 @@
             </rect>
           </svg>
         </div>
+        <br>
+        <h2>Loading...</h2>
       </div>
     </main>
     <header>
