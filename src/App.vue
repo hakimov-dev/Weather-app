@@ -6,7 +6,7 @@
         <div class="date">{{this.date}}</div>
       </section>
       <div class="main__temp">
-        <div class="temp">8<span>°c</span></div>
+        <div class="temp">{{this.temp}}<span>°c</span></div>
         <div class="weather">Fog</div>
         <div class="hi__low">19°c / 24°c</div>
       </div>
