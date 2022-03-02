@@ -11,12 +11,12 @@
  * See https://goo.gl/2aRDsh
  */
 
-// Created by hakimov-dev 
+// Created by hakimov-dev
 
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.1f67ecaf63856c70a00d54821f167d01.js"
+  "/precache-manifest.d9697f4551c06eda59824c2b74c2dc95.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "weather-app"});
